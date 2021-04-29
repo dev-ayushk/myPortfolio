@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 hr{
@@ -94,6 +95,7 @@ hr{
     padding-top: 1rem;
     color:#111827;
     font-size: xx-large;
+
    
 
 }
@@ -126,4 +128,11 @@ footer{
 }
 .footer .link{
     color: white;
+}
+
+/* Those social media links were not in centres
+Problem was user style agent sheet */
+
+.footer ul{
+    padding-inline-start: 0px;
 }
