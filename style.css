@@ -1,0 +1,33 @@
+/* Third method of CSS is creating a different css file and then 
+importing to HTML file */
+body{
+    color: red
+}
+/* In the below cases what I have done selectively given the 
+different color for different tags. */
+h1{
+    color: blue
+}
+p{
+    color: purple;
+}
+small{
+    color: yellowgreen
+}
+/* now import it to html file */
+/* In the above cases we are changing the color of a whole tag but 
+what if we want to change the color of first h2 tag
+Then we will give that tag a "id".
+<h1 id="lib-header"> This we will do in html file.
+And then use the lib-header using "#" in CSS file.
+  */
+
+#lib-header{
+    color: gray;
+}
+/* One more method is using class method, if I want to change all those tags 
+who are having a class. To access class we will use "." */
+
+.para{
+    color: brown
+}
