@@ -115,3 +115,15 @@ hr{
     background-color: var(--offwhite);
 
 }
+
+/* footer */
+footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 2rem;
+}
+.footer .link{
+    color: white;
+}
